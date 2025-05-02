@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Предрегистрация | Reasons: Chronoscript</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+  <div class="container">
+    <img src="assets/RE_LOGO.png" alt="Reasons Logo" class="logo" />
+    <h1>Предрегистрация</h1>
+    <form id="regForm">
+      <input type="email" id="email" name="email" placeholder="Введите ваш e-mail" required />
+      <div class="g-recaptcha" data-sitekey="6LfbGiwrAAAAAIVe2W8EC0DMRiBt2dZ-fu66s1Se"></div>
+      <button type="submit">Зарегистрироваться</button>
+    </form>
+    <p id="responseMsg"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
